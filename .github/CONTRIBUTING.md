@@ -11,7 +11,7 @@ Hi! I’m really excited that you are interested in contributing to ICE. Before 
 
 ## Setup Environment
 
-clone repo and nitialize the setup environment：
+clone repo and initialize the setup environment：
 
 ```bash
 # 1. clone and setup
@@ -36,9 +36,6 @@ $ npm start
 
 When you need to release, you can execute the command：
 
-* When you need to release a latest version, the tag will be created automatically, running `npm publish` will tag your package with the `latest` dist-tag.
-* To publish a package with the `beta` dist-tag, you need to release rc、beta、alpha versions, the tag will not be created
-
 ```bash
 $ npm run publish
 # 1. ✔️ ✔️ ✔️ Checking the working tree status...
@@ -48,6 +45,9 @@ $ npm run publish
 # 5. 🔖 🔖 🔖 Commit & Create tag'...
 # 6. 💡 💡 💡 Start syncing...
 ```
+
+* When you need to release a latest version, the tag will be created automatically, running `npm publish` will tag your package with the `latest` dist-tag.
+* To publish a package with the `beta` dist-tag, you can choose to release rc、beta、alpha versions, the tag will not be created.
 
 ## Pull Request Guidelines
 
